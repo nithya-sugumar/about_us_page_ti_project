@@ -1,0 +1,73 @@
+.custom_card_body{
+    text-align: center;
+    background-color: white;
+}
+
+.custom_card{
+    margin: 20px 40px 20px 15px;
+}
+.custom_card_img_bg{
+    border-radius: 100px 0px 0px 0px;
+    -webkit-border-radius: 100px 0px 0px 0px;
+    -moz-border-radius: 100px 0px 0px 0px;
+    -ms-border-radius: 100px 0px 0px 0px;
+    -o-border-radius: 100px 0px 0px 0px;
+}
+
+.checked{
+    color: orange;
+    }
+#news-slider{
+    margin-top: 80px;
+}
+
+.owl-controls .owl-buttons{
+    text-align:center;
+    margin-top:20px;
+}
+.owl-controls .owl-buttons .owl-prev{
+    background-color: #fff;
+    position: absolute;
+    top:-13%;
+     left:0px;
+    padding: 0 5px 0 5px;
+    border-radius: 50px;
+    box-shadow: 3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-next{
+    background-color: #fff;
+    position: absolute;
+    top:-13%;
+    right: 55px;
+    padding: 0 5px 0 5px;
+    border-radius: 50px;
+    box-shadow: -3px 14px 25px -10px #92b4d0;
+    transition: background 0.5s ease 0s;
+}
+.owl-controls .owl-buttons .owl-prev:after{
+    content:"\f104";
+    font-family: FontAwesome;
+    color: #3475b5;
+    font-size:30px;
+}
+.owl-controls .owl-buttons .owl-next:after{
+    content:'\f105';
+    font-family: FontAwesome;
+    color: #3475b5;
+    font-size:30px;
+}
+
+.owl-item {
+width: 300px;
+}
+
+.owl-controls .owl-buttons .owl-prev {
+    top: 35%;
+    left: 0px;
+}
+
+.owl-controls .owl-buttons .owl-next {
+    top: 35%;
+    right: 0px;
+}

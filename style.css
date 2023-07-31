@@ -1,0 +1,319 @@
+.ti_about_banner_container{
+    position: relative;
+    text-align: center;
+  }
+  .ti_about_banner_container .ti_about_banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+  .ti_about_why_choose_div .ti_about_great_why_h3{
+    color: #252525;
+    font-size: 24px;
+    font-weight: 600;
+}
+.ti_about_why_choose_div .ti_about_world_p{
+  color: #252525;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ti_about_choose_below_row .ti_about_p_tag{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 600;
+  color: #252525;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.ti_about_img_text_div{
+    padding: 14px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+}
+.shfooter .collapse {
+  display: inherit !important;
+}
+.ti_footer_info_ept li{
+  list-style-type: none;
+}
+.ti_footer_info_ept li a{
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  font-size: 14px;
+}
+.ti_footer_info_ept{
+  padding-left: 0px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px){
+.owl-controls .owl-buttons .owl-next{
+  right: -18px !important;
+}
+.ti_about_banner_container .ti_about_banner_text{
+    font-size: 18px;
+}
+.about_bg_div img{
+    height: 70px;
+}
+.ti_about_great_h3, .ti_about_why_choose_div .ti_about_great_why_h3{
+    font-size: 16px;
+}
+.ti_about_great_left_content p{
+    font-size: 12px;
+}
+.ti_about_why_choose_div .ti_about_world_p, .ti_about_choose_below_row .ti_about_p_tag{
+    font-size: 14px;
+}
+.ti_about_choose_below_row{
+    gap: 10px !important;
+}
+.ti_about_choose_below_row .col-6 {
+    width: 48% !important;
+}
+.ti_about_second_row_price{
+    margin-left: 0px !important;
+}
+.ti_about_choose_below_row img{
+  height: 50px;
+  width: 50px;
+}
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 575px){
+  .owl-controls .owl-buttons .owl-next{
+    right: -18px !important;
+  }
+  .shfooter .collapse:not(.show) {
+    display: none !important; 
+  }
+  .shfooter ul {
+    margin-bottom: 0;
+  }
+  .shfooter .collapse {
+    display: none;
+  }
+  .shfooter .collapse.show {
+    display: block;
+  }
+  .shfooter .title .fa-angle-up,
+  .shfooter .title[aria-expanded="true"] .fa-angle-down {
+    display: none;
+  }
+  .shfooter .title[aria-expanded="true"] .fa-angle-up {
+    display: block;
+  }
+
+  .shfooter .navbar-toggler {
+    display: inline-block;
+    float: right;
+    padding: 0;
+  }
+    .ti_about_banner_container .ti_about_banner_text{
+        font-size: 18px;
+    }
+    .about_bg_div img{
+        height: 70px;
+    }
+    .ti_about_great_h3, .ti_about_why_choose_div .ti_about_great_why_h3{
+        font-size: 16px;
+    }
+    .ti_about_great_left_content p{
+        font-size: 12px;
+    }
+    .ti_about_why_choose_div .ti_about_world_p, .ti_about_choose_below_row .ti_about_p_tag{
+        font-size: 14px;
+    }
+    .ti_about_choose_below_row{
+        gap: 10px !important;
+    }
+    .ti_about_choose_below_row .col-6 {
+        width: 48% !important;
+    }
+    .ti_about_second_row_price{
+        margin-left: 0px !important;
+    }
+    .ti_about_choose_below_row img{
+      height: 50px;
+      width: 50px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+  .shfooter .collapse:not(.show) {
+    display: none !important; 
+  }
+  .shfooter ul {
+    margin-bottom: 0;
+  }
+  .shfooter .collapse {
+    display: none;
+  }
+  .shfooter .collapse.show {
+    display: block;
+  }
+  .shfooter .title .fa-angle-up,
+  .shfooter .title[aria-expanded="true"] .fa-angle-down {
+    display: none;
+  }
+  .shfooter .title[aria-expanded="true"] .fa-angle-up {
+    display: block;
+  }
+
+  .shfooter .navbar-toggler {
+    display: inline-block;
+    float: right;
+    padding: 0;
+  }
+.owl-controls .owl-buttons .owl-next{
+  right: -18px !important;
+}
+.ti_about_banner_container .ti_about_banner_text{
+  font-size: 18px;
+}
+.about_bg_div img{
+    height: 70px;
+}
+.ti_about_great_h3, .ti_about_why_choose_div .ti_about_great_why_h3{
+    font-size: 16px;
+}
+.ti_about_great_left_content p{
+    font-size: 12px;
+}
+.ti_about_why_choose_div .ti_about_world_p, .ti_about_choose_below_row .ti_about_p_tag{
+    font-size: 14px;
+}
+.ti_about_choose_below_row{
+    gap: 10px !important;
+}
+.ti_about_choose_below_row .col-6 {
+    width: 48% !important;
+}
+.ti_about_second_row_price{
+    margin-left: 0px !important;
+}
+.ti_about_choose_below_row img{
+  height: 50px;
+  width: 50px;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .shfooter .collapse:not(.show) {
+    display: none !important; 
+  }
+  .shfooter ul {
+    margin-bottom: 0;
+  }
+  .shfooter .collapse {
+    display: none;
+  }
+  .shfooter .collapse.show {
+    display: block;
+  }
+  .shfooter .title .fa-angle-up,
+  .shfooter .title[aria-expanded="true"] .fa-angle-down {
+    display: none;
+  }
+  .shfooter .title[aria-expanded="true"] .fa-angle-up {
+    display: block;
+  }
+
+  .shfooter .navbar-toggler {
+    display: inline-block;
+    float: right;
+    padding: 0;
+  }
+.ti_about_banner_container .ti_about_banner_text{
+    font-size: 20px;
+}
+.about_bg_div img{
+    height: 70px;
+}
+.ti_about_great_h3, .ti_about_why_choose_div .ti_about_great_why_h3{
+    font-size: 16px;
+}
+.ti_about_great_left_content p{
+    font-size: 12px;
+}
+.ti_about_why_choose_div .ti_about_world_p, .ti_about_choose_below_row .ti_about_p_tag{
+    font-size: 14px;
+}
+.ti_about_choose_below_row{
+    gap: 10px !important;
+}
+.ti_about_choose_below_row .col-6 {
+    width: 48% !important;
+}
+.ti_about_second_row_price{
+    margin-left: 0px !important;
+}
+.ti_about_choose_below_row img{
+  height: 50px;
+  width: 50px;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+.footer-sub-title{
+  font-size: 15px;
+}
+.ti_about_banner_container .ti_about_banner_text{
+  font-size: 20px;
+}
+.about_bg_div img{
+    height: 70px;
+}
+.ti_about_great_h3, .ti_about_why_choose_div .ti_about_great_why_h3{
+    font-size: 16px;
+}
+.ti_about_great_left_content p{
+    font-size: 12px;
+}
+.ti_about_why_choose_div .ti_about_world_p, .ti_about_choose_below_row .ti_about_p_tag{
+    font-size: 14px;
+}
+.ti_about_choose_below_row{
+    gap: 10px !important;
+}
+.ti_about_choose_below_row .col-6 {
+    width: 48% !important;
+}
+.ti_about_second_row_price{
+    margin-left: 0px !important;
+}
+.ti_about_choose_below_row img{
+  height: 50px;
+  width: 50px;
+}
+
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+  .ti_about_choose_below_row{
+    gap: 46px !important;
+  }
+  .ti_about_img_text_div{
+    margin-left: 0px !important;
+  }
+  .ti_about_choose_below_row .ti_about_p_tag, .ti_about_great_h3{
+    font-size: 14px;
+  }
+  .ti_about_banner_container .ti_about_banner_text, .ti_about_why_choose_div .ti_about_great_why_h3{
+    font-size: 20px;
+  }
+  .ti_about_great_left_content p, .ti_about_why_choose_div .ti_about_world_p{
+    font-size: 14px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1920px){
+
+}
+@media screen and (min-width: 1921px) and (max-width: 2560px){
+
+}
